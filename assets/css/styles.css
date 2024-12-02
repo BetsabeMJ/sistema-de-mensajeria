@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+main {
+  display: flex;
+}
+/* SECTION 1 */
+.section-1 {
+  width: 25vw;
+}
+/* DIV DE MARÍA ACTIVA */
+.maria-img {
+  border-radius: 200px;
+  width: 55px;
+}
+.container--1__active {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #bec1bb;
+  /* gap: 20px; */
+}
+.img--container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.maria-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.iconos--container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  color: #828485;
+}
+.name {
+  font-size: 14px;
+}
+.active {
+  font-size: 10px;
+  color: #bec1bb;
+}
+/* DIV DE BOTON DEL NUEVO CHAT */
+.container--1__new-chat {
+  padding-block: 20px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #bec1bb;
+}
+button {
+  background-color: #a491d2;
+  padding: 20px 50px 20px 50px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #cdc3e6;
+}
+button:focus {
+  background-color: #828485;
+}
+/* SECCIÓN DE TODOS LOS CONTACTOS */
+.container--1__members {
+  display: flex;
+  justify-content: space-evenly;
+  padding-block: 20px;
+  border: 1px solid #bec1bb;
+}
+.members-img {
+  border-radius: 200px;
+  width: 100px;
+}
+.members-names__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.status {
+  font-size: 14px;
+}
+/* SECTION 2 */
+.section--2 {
+  width: 75vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8ebe4;
+}
+.container--2 {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.hands-img {
+  width: 200px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 45px;
+}
+.container--2__text {
+  text-align: center;
+}
+.text--section-2 {
+  font-size: 16px;
+}
+.span-text--section-2 {
+  font-weight: bold;
+}
